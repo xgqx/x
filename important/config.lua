@@ -3,8 +3,8 @@ getgenv().config = {
         silent_aim = true,
         hit_chance = 100,
         field_of_view = true,
-        field_of_view_range = 20,
-        headshot_percentage = 20,
+        field_of_view_range = 200,
+        headshot_percentage = 0,
         only_shoot_visible = true
     },
     character = {
@@ -25,9 +25,9 @@ getgenv().config = {
     },
     visuals = {
         esp_enabled = true,
-        esp_not_visible_shown = false,
+        esp_not_visible_shown = true,
         esp_visible_shown = true,
-        esp_colour = Color3.fromRGB(255, 0, 0),
-        esp_visible_colour = Color3.fromRGB(0, 255, 0)
+        esp_colour = Color3.fromRGB(255, 255, 0),
+        esp_visible_colour = Color3.fromRGB(0, 255, 255)
     }
 }
